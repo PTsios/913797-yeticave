@@ -51,6 +51,30 @@ $user_avatar = 'img/user.jpg';
                 </ul>
             <?php endif; ?>
 
+
+            <?php
+            $good = [
+                $Доски_и_лыжи = [
+                   "2014 Rossignol District Snowboard" =>  10999,
+                    "DC Ply Mens 2016/2017 Snowboard" => 159999
+                ],
+                $Крепления = [
+                    "Крепления Union Contact Pro 2015 года размер L/XL" => 8000
+                ],
+                $Ботинки = [
+                 "Ботинки для сноуборда DC Mutiny Charocal" => 10999
+                ],
+                $Одежда = [
+                    "Куртка для сноуборда DC Mutiny Charocal" => 7500
+                ],
+                $Инструменты,
+                $Разное = [
+                    "Маска Oakley Canopy" => 5400
+                ]
+            ]
+            ?>
+
+
         </nav>
     </div>
 </header>
@@ -61,6 +85,9 @@ $user_avatar = 'img/user.jpg';
         <p class="promo__text">На нашем интернет-аукционе ты найдёшь самое эксклюзивное сноубордическое и горнолыжное снаряжение.</p>
         <ul class="promo__list">
             <!--заполните этот список из массива категорий-->
+            <?php
+             //надодописать обход массива
+            ?>
             <li class="promo__item promo__item--boards">
                 <a class="promo__link" href="pages/all-lots.html">Имя категории</a>
             </li>
